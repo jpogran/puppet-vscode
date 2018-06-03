@@ -88,7 +88,16 @@ The node graph will appear next to the manifest
 
 You can use the [Puppet Development Kit](https://puppet.com/blog/develop-modules-faster-new-puppet-development-kit) inside VS Code from the command palette.
 
-** Note: The PDK must be installed prior to using these commands
+**Note: The PDK must be installed prior to using these commands.
+
+**Note: The PDK uses PowerShell cmdlets, therefore VSCode must be configured to use PowerShell as the shell (by default, a fresh install of VSCode will use CMD.exe (32-bit)). Add the following to user settings (File > Preferences > Settings ( or CTRL+,)):
+
+```
+// Use 64-bit PowerShell on a 64-bit machine. PDK is only available for Windows in 64-bit architecture.
+"terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+"terminal.external.windowsExec":"C:\\WINDOWS\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe"
+```
+Restart VSCode and check `TERMINAL` output is giving you a PS prompt.
 
 The following commands are supported:
 
