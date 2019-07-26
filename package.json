@@ -548,7 +548,7 @@
     "typescript": "^3.5.2",
     "vsce": "^1.63.0",
     "vscode": "^1.1.34",
-    "yargs": "^13.2.4"
+    "yargs": "^13.3.0"
   },
   "dependencies": {
     "viz.js": "~1.7.0",
