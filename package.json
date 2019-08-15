@@ -547,7 +547,7 @@
     "gulp-decompress": "^2.0.2",
     "gulp-downloader": "^1.0.4",
     "lodash": ">=4.17.13",
-    "tslint": "^5.17.0",
+    "tslint": "^5.18.0",
     "typescript": "^3.5.2",
     "vsce": "^1.63.0",
     "vscode": "^1.1.34",
