@@ -550,7 +550,7 @@
     "tslint": "^5.17.0",
     "typescript": "^3.5.2",
     "vsce": "^1.63.0",
-    "vscode": "^1.1.34",
+    "vscode": "^1.1.36",
     "yargs": "^13.2.4"
   },
   "dependencies": {
